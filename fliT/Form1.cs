@@ -761,9 +761,7 @@ namespace fliT
         private void button7_Click(object sender, EventArgs e)
         {
             if (!connectStatus)
-            {//TEST 
-                //asdasdsadas
-                //LLLLLLLLLL
+            {
                 double exposureTime = 1.00; // TEST
                 textBox11.Text = Convert.ToString(exposureTime);
                 lastExposureTime = Convert.ToDouble(textBox11.Text);
